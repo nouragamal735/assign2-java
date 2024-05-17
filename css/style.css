@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    font-style: italic;
+}
+p{
+    font-weight: 400;
+    font-size: 30px;
+}
+button{
+    padding: 20px 60px !important;
+    transition: all 0.5s;
+    &:hover{
+        background-color: #008000 !important;
+    }
+}
